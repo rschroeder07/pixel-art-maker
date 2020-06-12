@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Metal Mania', cursive;
+    font-size: 120px;
+    color: rgb(255, 166, 0);
+    text-shadow: black 5px 10px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    text-decoration: underline;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
